@@ -41,7 +41,7 @@ export default function Home() {
         <div>{t('title')}</div>
         <div>{t('description')}</div>
         <div>
-          ewqeeeeqeqeqeweqewqeqwewq
+          ewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewq
         </div>
         <Link href={'/about'}>{t('nav.about')}</Link>
       </div>
