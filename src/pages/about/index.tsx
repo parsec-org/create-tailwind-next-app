@@ -7,8 +7,8 @@ const AboutPage = () => {
   const t = useTranslations('About');
 
   return (
-    <div className="flex min-h-screen flex-col gap-12 items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-end font-mono text-sm lg:flex">
+    <div className="flex min-h-screen flex-col items-center justify-between gap-12 p-24">
+      <div className="z-10 w-full max-w-5xl items-center justify-end font-mono text-sm lg:flex">
         <LocaleSwitcher />
       </div>
       <div>{t('title')}</div>

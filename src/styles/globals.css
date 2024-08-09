@@ -27,7 +27,6 @@ body {
   background: var(--nprogress-color) !important;
 }
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
