@@ -1,0 +1,41 @@
+{
+  "Index": {
+    "title": "首页",
+    "description": "这是主页。",
+    "nav": {
+      "home": "首页",
+      "about": "关于"
+    },
+    "items": {
+      "doc": {
+        "title": "文档",
+        "description": "查找有关 Next.js 功能和 API 的详细信息。",
+        "link": "https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "learn": {
+        "title": "学习",
+        "description": "通过带有测验的交互式课程了解 Next.js！",
+        "link": "https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "templates": {
+        "title": "模板",
+        "description": "发现并部署样板示例 Next.js 项目。",
+        "link": "https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "deploy": {
+        "title": "部署",
+        "description": "使用 Vercel 立即将您的 Next.js 网站部署到可共享的 URL。",
+        "link": "https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      }
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "切换语言",
+    "locale": "{locale, select, de {🇩🇪 德文} en {🇺🇸 英文} zh {🇨🇳 简体中文} other {Unknown}}"
+  },
+  "About": {
+    "title": "关于",
+    "description": "了解有关我们的使命和团队的更多信息。",
+    "back-to-home": "返回首页"
+  }
+}

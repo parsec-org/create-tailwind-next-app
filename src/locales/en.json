@@ -1,0 +1,41 @@
+{
+  "Index": {
+    "title": "Home",
+    "description": "This is the home page.",
+    "nav": {
+      "home": "Home",
+      "about": "About"
+    },
+    "items": {
+      "doc": {
+        "title": "Docs",
+        "description": "Find in-depth information about Next.js features and API.",
+        "link": "https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "learn": {
+        "title": "Learn",
+        "description": "Learn about Next.js in an interactive course with&nbsp;quizzes!",
+        "link": "https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "templates": {
+        "title": "Learn",
+        "description": "Discover and deploy boilerplate example Next.js&nbsp;projects.",
+        "link": "https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "deploy": {
+        "title": "Deploy",
+        "description": "Instantly deploy your Next.js site to a shareable URL with Vercel.",
+        "link": "https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      }
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} zh {🇨🇳 Chinese} other {Unknown}}"
+  },
+  "About": {
+    "title": "About",
+    "description": "Learn more about our mission and team.",
+    "back-to-home": "Back to home"
+  }
+}

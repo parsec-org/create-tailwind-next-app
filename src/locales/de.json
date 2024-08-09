@@ -1,0 +1,41 @@
+{
+  "Index": {
+    "title": "Start",
+    "description": "Das ist die Startseite.",
+    "nav": {
+      "home": "Start",
+      "about": "Über"
+    },
+    "items": {
+      "doc": {
+        "title": "Dokumentation",
+        "description": "Finden Sie ausführliche Informationen zu den Funktionen und der API von Next.js.",
+        "link": "https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "learn": {
+        "title": "Lernen",
+        "description": "Erfahren Sie mehr über Next.js in einem interaktiven Kurs mit Quiz!",
+        "link": "https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "templates": {
+        "title": "Vorlagen",
+        "description": "Entdecken und implementieren Sie beispielhafte Next.js-Projekte im Boilerplate-Format.",
+        "link": "https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      },
+      "deploy": {
+        "title": "Bereitstellen",
+        "description": "Stellen Sie Ihre Next.js-Site mit Vercel sofort unter einer gemeinsam nutzbaren URL bereit.",
+        "link": "https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+      }
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} zh {🇨🇳 Chinesis} other {Unbekannt}}"
+  },
+  "About": {
+    "title": "Über uns",
+    "description": "Erfahren Sie mehr über unsere Mission und unser Team.",
+    "back-to-home": "Zurück zur Startseite"
+  }
+}
