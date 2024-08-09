@@ -10,10 +10,6 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   const t = useTranslations('Index');
 
-  const ddsscccc = dddd;
-  const ddsscccc = dddd;
-  const ddsscccc = dddd;
-
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -45,9 +41,7 @@ export default function Home() {
         />
         <div>{t('title')}</div>
         <div>{t('description')}</div>
-        <div>
-          ewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqewqeqwewq
-        </div>
+        <div>ewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqe</div>
         <Link href={'/about'}>{t('nav.about')}</Link>
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
