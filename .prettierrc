@@ -3,6 +3,7 @@
   "trailingComma": "all",
   "printWidth": 120,
   "proseWrap": "never",
+  "plugins": ["prettier-plugin-tailwindcss"],
   "overrides": [
     {
       "files": ".prettierrc",
