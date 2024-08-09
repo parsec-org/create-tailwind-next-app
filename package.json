@@ -37,8 +37,8 @@
     "typescript": "^5.4.5"
   },
   "lint-staged": {
-    "**/*.{js,jsx,tsx,ts,less,md,json}": [
-      "pnpm prettier"
+    "**/*.{js,jsx,tsx,ts}": [
+      "pnpm lint"
     ]
   }
 }
