@@ -8,7 +8,16 @@ import NProgress from 'nprogress';
 
 NProgress.configure({ showSpinner: false });
 
-export default function App({ Component, pageProps }: AppProps) {
+type PageProps = {
+  messages: IntlMessages;
+  now: number;
+};
+
+type Props = Omit<AppProps<PageProps>, 'pageProps'> & {
+  pageProps: PageProps;
+};
+
+export default function App({ Component, pageProps }: Props) {
   const router = useRouter();
   useEffect(() => {
     const handleStart = () => {
@@ -29,6 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
       router.events.off('routeChangeError', handleStop);
     };
   }, [router]);
+  const adfsfsf= dfsffs;
   return (
     <NextIntlClientProvider
       // To achieve consistent date, time and number formatting
