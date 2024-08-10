@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: Props) {
       router.events.off('routeChangeError', handleStop);
     };
   }, [router]);
-  const adfsfsf=dfsffs;
+  const adfsfsf = dfsffs;
   return (
     <NextIntlClientProvider
       // To achieve consistent date, time and number formatting
