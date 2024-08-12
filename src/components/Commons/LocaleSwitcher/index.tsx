@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { ChangeEvent, useCallback, useTransition } from 'react';
 import { useParams, usePathname } from 'next/navigation';
 import { useRouter } from 'next/router';
