@@ -41,7 +41,6 @@ export default function Home() {
         />
         <div>{t('title')}</div>
         <div>{t('description')}</div>
-        <div>ewqeeeeqeqeqeweqewqeqwewqewqeeeeqeqeqeweqe</div>
         <Link href={'/about'}>{t('nav.about')}</Link>
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
