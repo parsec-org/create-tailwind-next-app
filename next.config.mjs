@@ -28,6 +28,9 @@ const nextConfig = () => {
       locales: ['en', 'de', 'zh'],
       defaultLocale: 'en',
     },
+    plugins: {
+      '@tailwindcss/postcss': {},
+    },
   };
 };
 
