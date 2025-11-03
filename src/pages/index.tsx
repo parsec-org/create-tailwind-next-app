@@ -42,6 +42,7 @@ export default function Home() {
         <div>{t('title')}</div>
         <div>{t('description')}</div>
         <Link href={'/about'}>{t('nav.about')}</Link>
+        <p>ENV: {process.env.NEXT_PUBLIC_API_URL}</p>
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
@@ -72,7 +73,6 @@ export default function Home() {
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>{t('items.learn.description')}</p>
         </a>
-
         <a
           href={t('items.templates.link')}
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
