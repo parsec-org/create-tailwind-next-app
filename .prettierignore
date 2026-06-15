@@ -13,6 +13,5 @@ build/
 package.json
 .prettierignore
 .gitignore
-.eslintrc.json
 yarn.lock
 .DS_Store

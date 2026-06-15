@@ -1,10 +1,8 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import { NEXT_DATA } from 'next/dist/shared/lib/utils';
 
-export default function Document({ locale }: NEXT_DATA) {
-  console.log('props', locale);
+export default function Document() {
   return (
-    <Html lang={locale}>
+    <Html>
       <Head />
       <body>
         <Main />

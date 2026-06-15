@@ -10,7 +10,7 @@ NProgress.configure({ showSpinner: false });
 
 type PageProps = {
   messages: IntlMessages;
-  now: number;
+  now?: number;
 };
 
 type Props = Omit<AppProps<PageProps>, 'pageProps'> & {
@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: Props) {
       router.events.off('routeChangeComplete', handleStop);
       router.events.off('routeChangeError', handleStop);
     };
-  }, [router]);
+  }, [router.events]);
 
   return (
     <NextIntlClientProvider
@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }: Props) {
       messages={pageProps.messages}
       // Providing an explicit value for `now` ensures consistent formatting of
       // relative values regardless of the server or client environment.
-      now={new Date(pageProps.now)}
+      now={pageProps.now ? new Date(pageProps.now) : new Date()}
       // Also an explicit time zone is helpful to ensure dates render the
       // same way on the client as on the server, which might be located
       // in a different time zone.

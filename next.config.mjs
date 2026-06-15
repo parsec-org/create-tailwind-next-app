@@ -3,7 +3,7 @@ const nextConfig = () => {
   const env = {
     NEXT_PUBLIC_ENV: process.env.NEXT_PUBLIC_ENV,
     NEXT_PUBLIC_2GIS_API_KEY: process.env.NEXT_PUBLIC_2GIS_API_KEY,
-    NEXT_PUBLIC_API_HOST: process.env.NEXT_PUBLIC_API_HOST,
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
     NEXT_PUBLIC_STORAGE_PREFIX: process.env.NEXT_PUBLIC_STORAGE_PREFIX,
   };
   const isProd = process.env.NODE_ENV === 'production';
