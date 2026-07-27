@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-b from-gray-200 to-white text-black dark:from-black dark:to-black dark:text-white;
+    @apply bg-linear-to-b from-gray-200 to-white text-black dark:from-black dark:to-black dark:text-white;
   }
 }
 
