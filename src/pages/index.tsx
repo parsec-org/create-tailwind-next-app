@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="before:bg-gradient-radial after:bg-gradient-conic relative flex flex-col place-items-center gap-1.5 before:absolute before:h-75 before:w-full before:-translate-x-1/2 before:rounded-full before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-45 after:w-full after:translate-x-1/3 after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] sm:before:w-120 sm:after:w-60 before:lg:h-90 before:dark:bg-linear-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40">
+      <div className="before:bg-gradient-radial after:bg-gradient-conic relative flex flex-col place-items-center gap-1.5 before:rounded-full before:to-transparent after:absolute after:-z-20 after:h-45 after:w-full after:translate-x-1/3 after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] sm:before:w-120 sm:after:w-60 before:lg:h-90 before:dark:bg-linear-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:via-[#0141ff]/40">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/next.svg"
